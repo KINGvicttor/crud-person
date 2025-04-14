@@ -10,7 +10,7 @@ import logoutIcon from "../assets/img/logout-icon.png"
 
 export const SideBar = () => {
     return (
-        <div className="w-[270px] h-screen flex flex-col items-center bg-primary-darkblue text-secondary-white">
+        <div className="w-[270px] h-screen flex flex-col items-center bg-primary-darkblue text-white">
             <Logo label={'CRUD PERSON'} modeData={'light'} />
             <div className="w-[130px] h-[196px] mt-10 flex flex-col items-center">
                 <img className="w-[128px] h-[128px] mb-2 rounded-full" src={avatarIcon.src} />
